@@ -4,7 +4,7 @@
 
 ## Initial notes
 
-I've created this website for a few reasons. The two primary ones are to act as an online resume and portfolio, as well as to provide as testing groudn as I continue to learn.
+I've created this website for a few reasons. The two primary ones are to act as an online resume and portfolio, as well as to provide a testing ground as I continue to learn.
 
 As of it's publication, some of the things I am incorporating are vanilla JS, jQuery, CSS transitions and events, and cheet.js. My plan is to continue to rotate new things in as I learn them.
 
