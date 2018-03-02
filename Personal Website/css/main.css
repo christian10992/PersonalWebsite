@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	min-height: 100%;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 25, .9)
+    ), url("../images/laptop.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+/* NavBar/Header */
+
+.header {
+	background-color: transparent;
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	padding-top: 1.5%;
+}
+
+nav li {
+	list-style: none;
+	margin-right: 4%;
+	margin-left: 4%;
+	float: left;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #E7E7E7;
+	font-size: 30px;
+	transition: font-size 0.5s ease-in-out;
+}
+
+nav li a:hover {
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 35px;
+	transition: font-size 0.5s ease-in-out;
+}
+
+/* Profile Picture */
+
+.me {
+	width: 60%;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	transform: none;
+	-webkit-transform: none;
+	-moz-transform: none;
+	transition: transform 4s ease-in-out;
+}
+
+.me:hover {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+	transition: transform 4s ease-in-out;
+}
+
+/* End NavBar/Header */
+
+/* Social Media Icons */
+
+.mediaButtons {
+	position: fixed;
+	bottom: 17%;
+	right: 35%;
+}
+
+.icons {
+	background-color: transparent;
+	display: block;
+	position: fixed;
+}
+
+.s-media {
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	width: 60%;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	transition: box-shadow 0.5s ease-in-out;
+}
+
+.github:hover {
+	box-shadow: 0px 0px 10px aliceblue;
+	-webkit-box-shadow: 0px 0px 10px aliceblue;
+	-moz-box-shadow: 0px 0px 10px aliceblue;
+	transition: box-shadow 0.5s ease-in-out;
+}
+
+.linkedin:hover {
+	box-shadow: 0px 0px 10px #4286f4;
+	-webkit-box-shadow: 0px 0px 10px #4286f4;
+	-moz-box-shadow: 0px 0px 10px #4286f4;
+	transition: box-shadow 0.5s ease-in-out;
+}
+
+.gmail:hover {
+	box-shadow: 0px 0px 10px #cc401a;
+	transition: box-shadow 0.5s ease-in-out;
+}
+
+/* End Social Media Icons */
+
+footer {
+	display: inline;
+	position: fixed;
+	background-color: transparent;
+	color: #E7E7E7;
+	bottom: 0;
+	right: 0;
+	margin-right: 1%;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1000px) {
+    .me {
+        margin-left: 5%;
+        width: 10%;
+    }
+    
+    nav li {
+        float: none;
+        padding-top: 5px;
+    }
+    
+    nav li a {
+        font-size: 20px;
+    }
+    
+    .mediaButtons {
+        bottom: 32%;
+        right: 8%;
+    }
+    
+    .col-md-3 {
+        padding-bottom: 10px;
+    }
+    
+    .s-media {
+        width: 50%;
+    }
+}

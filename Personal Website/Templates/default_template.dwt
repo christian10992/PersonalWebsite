@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="../css/main.css" type="text/css" rel="stylesheet">
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Christian Harris - Home</title>
+<!-- TemplateEndEditable -->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<!--Navigation-->
+<nav class="container-fluid">
+	<div class="row">
+	  <div class="col-md-2"><img src="../images/self.jpg" alt="Christian Harris" class="profile"></div>
+	  <div class="col-md-10">
+		<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="../blog.html">Blog</a></li>
+		<li><a href="../portfolio.html">Portfolio</a></li>
+		<li><a href="../music.html">Music</a></li>
+		</ul>
+	  </div>
+  </div>
+</nav>
+<!--Social Media Icons-->
+<div class="container-fluid, icons">
+          <div class="row">
+			<div class="col-md-3"></div>
+            <div class="col-md-3"><a href="https://github.com/christian10992" target="_blank"><img class="s-media" src="../images/github.png" alt="GitHub"></a></div>
+            <div class="col-md-3"><a href="https://www.linkedin.com/in/christian10992/" target="_blank"><img class="s-media" src="../images/linkedin.png" alt="LinkedIn"></a></div>
+		    <div class="col-md-3"><a href="mailto: christian10992@gmail.com"><img class="s-media" src="../images/gmail.png" alt="GMail"></a></div>
+		</div>
+	</div>
+	
+<!--Main Body-->
+<!-- TemplateBeginEditable name="body" -->
+<!-- TemplateEndEditable -->
+
+<footer><p>Christian Harris &copy; 2018</p></footer>
+</body>
+</html>
